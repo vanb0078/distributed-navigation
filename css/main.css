@@ -1,5 +1,7 @@
 html {
   box-sizing: border-box;
+  font-family: sans-serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -17,7 +19,9 @@ body {
 header {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   align-items: center;
+  background-color: #e2e2e2;
 }
 
 header nav > ul {
@@ -25,4 +29,13 @@ header nav > ul {
   padding: 0;
   margin: 0;
   display: flex;
+}
+
+header ul li {
+  padding: 0 .5rem;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #0074d9;
 }
